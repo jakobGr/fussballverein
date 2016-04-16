@@ -1,0 +1,11 @@
+DROP TABLE Angestellter_FanClub;
+DROP TABLE FanClub;
+DROP TABLE Spieler_Spiel;
+DROP TABLE Spieler_Mannschaft;
+DROP TABLE Spiel;
+DROP TABLE Mitglied;
+DROP TABLE Mannschaft;
+DROP TABLE Angestellter;
+DROP TABLE Trainer;
+DROP TABLE Spieler;
+DROP TABLE Person;
