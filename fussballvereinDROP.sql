@@ -1,0 +1,14 @@
+DROP TABLE Angestellter_FanClub;
+DROP TABLE FanClub;
+DROP TABLE Spieler_Spiel;
+DROP TABLE Spieler_Mannschaft;
+DROP TABLE Spiel;
+DROP TABLE Mitglied;
+DROP TABLE Mannschaft;
+DROP TABLE Angestellter;
+DROP TABLE Trainer;
+DROP TABLE Spieler;
+DROP TABLE Standort;
+DROP TABLE Person;
+DROP SEQUENCE seq_auto_incr;
+DROP SEQUENCE seq_incr_two;

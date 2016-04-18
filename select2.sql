@@ -1,0 +1,2 @@
+SELECT p.persnr,p.nname FROM (select afc.persnr, count(afc.persnr), count(distinct(fc.sid, fc.name)) from Angestellter_FanClub AS AFC RIGHT JOIN FanClub AS fc 
+ON AFC.sid = fc.sid AND AFC.name = fc.name GROUP BY afc.persnr HAVING count(afc.persnr) = (SELECT count(*) from FanClub)) AS result INNER JOIN Person AS p on result.persnr = p.persnr ORDER BY p.nname ASC;
